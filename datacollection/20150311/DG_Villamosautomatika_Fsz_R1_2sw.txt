@@ -1,0 +1,299 @@
+--- cmdShow log 2015.03.11 23:54:24 ---
+terminal datadump
+terminal datadump
+Villamosautomatika_Fsz_R1_2sw#
+Villamosautomatika_Fsz_R1_2sw#
+show system
+show system
+System Description:                       SPS2024 24-port 10/100/1000 Ethernet Switch
+System Serial Number:
+System Up Time (days,hour:min:sec):       14,17:24:48
+System Contact:                           R150988
+System Name:                              Villamosautomatika_Fsz_R1_2sw
+System Location:                          Villamosautomatika_Fsz_R1
+System MAC Address:                       2c:36:f8:48:c7:8b
+System Object ID:                         1.3.6.1.4.1.3955.6.9.2024.1
+Villamosautomatika_Fsz_R1_2sw#
+Villamosautomatika_Fsz_R1_2sw#
+show version
+show version
+SW version    1.0.2 ( date  23-Mar-2009 time  11:30:36 )
+Boot version    1.0.0.01 ( date  01-Nov-2007 time  13:19:38 )
+HW version    00.03.00
+Villamosautomatika_Fsz_R1_2sw#
+Villamosautomatika_Fsz_R1_2sw#
+show cdp neighbor detail
+show cdp neighbor detail
+% Unrecognized command
+Villamosautomatika_Fsz_R1_2sw#
+Villamosautomatika_Fsz_R1_2sw#
+show lldp neighbor
+show lldp neighbor
+% Unrecognized command
+Villamosautomatika_Fsz_R1_2sw#
+Villamosautomatika_Fsz_R1_2sw#
+show mac address-table
+show mac address-table
+Aging time is 300 sec
+Vlan        Mac Address       Port     Type
+-------- --------------------- ------ ----------
+1       00:00:5e:00:01:01    g24    dynamic
+1       00:02:d1:05:58:87    g24    dynamic
+1       00:04:e2:1f:9e:d4    g24    dynamic
+1       00:0a:b7:44:d6:18    g24    dynamic
+1       00:0c:46:46:2d:20    g24    dynamic
+1       00:0c:46:46:32:80    g24    dynamic
+1       00:0c:46:4b:32:20    g24    dynamic
+1       00:0c:46:4c:94:40    g24    dynamic
+1       00:0c:46:4e:e0:20    g24    dynamic
+1       00:0c:46:4e:ed:40    g24    dynamic
+1       00:0c:46:4e:f1:e0    g24    dynamic
+1       00:0e:6a:73:b9:a0    g24    dynamic
+1       00:0e:7f:a9:cf:91    g24    dynamic
+1       00:0f:20:6e:cf:8d    g24    dynamic
+1       00:0f:20:6e:eb:30    g24    dynamic
+1       00:0f:e2:14:69:df    g24    dynamic
+1       00:0f:e2:14:6a:07    g24    dynamic
+1       00:0f:fe:c1:aa:9a    g24    dynamic
+1       00:0f:fe:c1:b1:ac    g24    dynamic
+1       00:0f:fe:cc:27:dc    g24    dynamic
+1       00:0f:fe:f1:e2:b0    g24    dynamic
+1       00:0f:fe:f1:e2:dc    g24    dynamic
+1       00:0f:fe:f1:e2:fd    g24    dynamic
+1       00:0f:fe:f1:e3:15    g24    dynamic
+1       00:11:11:82:2c:d8    g24    dynamic
+1       00:13:72:fe:1c:a2    g24    dynamic
+1       00:15:62:41:fa:b1    g24    dynamic
+1       00:15:e9:b1:99:58    g24    dynamic
+1       00:15:e9:b1:99:69    g24    dynamic
+1       00:16:76:01:b8:27    g24    dynamic
+1       00:17:5c:8c:7a:b7    g24    dynamic
+1       00:17:c8:03:1a:fd    g24    dynamic
+1       00:18:6e:6d:4c:80    g24    dynamic
+1       00:18:6e:6d:77:00    g24    dynamic
+1       00:18:8b:2c:4f:17    g24    dynamic
+1       00:19:b9:05:9f:29    g24    dynamic
+1       00:19:b9:06:40:4f    g24    dynamic
+1       00:1a:a0:e7:fe:72    g24    dynamic
+1       00:1a:a0:e9:d8:65    g24    dynamic
+1       00:1a:a0:eb:03:ea    g24    dynamic
+1       00:1a:a0:eb:11:fa    g24    dynamic
+1       00:1a:c1:56:67:ce    g24    dynamic
+1       00:1b:1b:43:0e:1f    g24    dynamic
+1       00:1b:78:0c:6c:c8    g24    dynamic
+1       00:1c:ee:60:e6:1b    g24    dynamic
+1       00:1d:7d:08:ef:67    g24    dynamic
+1       00:1d:7d:08:ef:6b    g24    dynamic
+1       00:1d:7d:09:0d:29    g24    dynamic
+1       00:1d:7d:09:22:7b    g24    dynamic
+1       00:1d:7d:57:ab:06    g24    dynamic
+1       00:1e:4f:92:1c:70    g24    dynamic
+1       00:1e:4f:92:28:db    g24    dynamic
+1       00:1e:4f:92:2a:8c    g24    dynamic
+1       00:1e:4f:92:2d:ae    g24    dynamic
+1       00:1e:4f:92:2f:d0    g24    dynamic
+1       00:1e:4f:92:4a:4c    g24    dynamic
+1       00:1e:4f:92:97:d0    g24    dynamic
+1       00:1e:4f:94:4e:b6    g24    dynamic
+1       00:1e:4f:94:4f:26    g24    dynamic
+1       00:1e:4f:94:c6:2d    g24    dynamic
+1       00:1e:4f:ed:a4:2d    g24    dynamic
+1       00:1e:c1:5b:2a:a0    g24    dynamic
+1       00:1e:c1:d7:1e:c0    g24    dynamic
+1       00:1e:c1:d7:26:40    g24    dynamic
+1       00:1e:c1:d7:70:c0    g24    dynamic
+1       00:1e:c1:f3:31:40    g24    dynamic
+1       00:20:4a:8c:9a:02    g24    dynamic
+1       00:20:4a:8c:9a:05    g24    dynamic
+1       00:20:4a:8c:9a:08    g24    dynamic
+1       00:20:4a:8c:9a:0d    g24    dynamic
+1       00:20:4a:8c:9a:2b    g24    dynamic
+1       00:20:4a:8c:9a:2e    g24    dynamic
+1       00:20:4a:eb:9b:df    g24    dynamic
+1       00:20:6b:56:6c:d6    g24    dynamic
+1       00:21:9b:6f:21:c2    g24    dynamic
+1       00:21:9b:6f:26:4e    g24    dynamic
+1       00:21:9b:6f:37:6a    g24    dynamic
+1       00:21:9b:72:61:57    g24    dynamic
+1       00:22:19:00:a5:20    g24    dynamic
+1       00:23:24:0e:07:d4    g24    dynamic
+1       00:23:24:0f:e6:72    g24    dynamic
+1       00:23:24:30:f7:c7    g24    dynamic
+1       00:23:24:33:fb:1b    g24    dynamic
+1       00:23:ab:0b:1c:c2    g24    dynamic
+1       00:24:01:62:fb:f8    g24    dynamic
+1       00:24:73:42:60:40    g24    dynamic
+1       00:24:73:8b:5e:80    g24    dynamic
+1       00:25:36:06:e9:32    g10    dynamic
+1       00:25:36:06:f9:60    g24    dynamic
+1       00:25:36:26:02:88    g24    dynamic
+1       00:30:84:24:97:66    g24    dynamic
+1       00:80:87:8c:81:03    g24    dynamic
+1       00:80:a3:9d:e4:ba    g24    dynamic
+1       00:80:f4:01:47:18    g24    dynamic
+1       00:90:e8:04:29:8d    g24    dynamic
+1       00:c0:ee:2e:79:d5    g24    dynamic
+1       00:c0:ee:2e:79:de    g24    dynamic
+1       00:c0:ee:2e:79:e2    g24    dynamic
+1       00:c0:ee:2e:80:62    g24    dynamic
+1       00:c0:ee:2e:85:02    g24    dynamic
+1       00:c0:ee:2e:b2:87    g24    dynamic
+1       00:c0:ee:36:9f:76    g24    dynamic
+1       00:c0:ee:50:93:9a    g24    dynamic
+1       00:c0:ee:54:5d:76    g24    dynamic
+1       00:c0:ee:54:c0:b0    g24    dynamic
+1       00:c0:ee:74:fe:3f    g24    dynamic
+1       00:c0:ee:89:eb:dd    g24    dynamic
+1       00:c0:ee:8b:4c:7f    g24    dynamic
+1       00:c0:ee:90:01:e4    g24    dynamic
+1       00:c0:ee:90:02:24    g24    dynamic
+1       00:c0:ee:90:b1:5d    g24    dynamic
+1       00:c0:ee:90:bc:c3    g24    dynamic
+1       00:c0:ee:94:41:f5    g24    dynamic
+1       00:c0:ee:9e:76:6c    g24    dynamic
+1       00:c0:ee:ac:e8:3d    g24    dynamic
+1       00:c0:ee:ac:e8:4a    g24    dynamic
+1       00:c0:ee:ad:3d:a4    g24    dynamic
+1       00:c0:ee:ad:f4:e2    g24    dynamic
+1       00:c0:ee:ae:55:4d    g24    dynamic
+1       00:c0:ee:b6:ee:35    g24    dynamic
+1       00:c0:ee:bb:9a:7b    g24    dynamic
+1       00:c0:ee:bb:9b:fb    g24    dynamic
+1       00:c0:ee:d6:5c:76    g24    dynamic
+1       00:c0:f0:52:a4:60    g24    dynamic
+1       00:c0:f0:52:ae:90    g24    dynamic
+1       00:e0:4b:27:94:5d    g24    dynamic
+1       00:e1:6d:8f:1b:55    g24    dynamic
+1       00:e1:6d:8f:1b:56    g24    dynamic
+1       00:e1:6d:8f:1d:39    g24    dynamic
+1       00:e1:6d:8f:1d:3a    g24    dynamic
+1       00:e1:6d:8f:1e:41    g24    dynamic
+1       04:da:d2:0c:d2:89    g24    dynamic
+1       04:da:d2:0c:d8:34    g24    dynamic
+1       10:60:4b:5a:19:10    g24    dynamic
+1       10:60:4b:5a:19:1e    g24    dynamic
+1       10:60:4b:5a:19:32    g24    dynamic
+1       10:60:4b:5e:77:af    g24    dynamic
+1       10:60:4b:5e:77:b4    g24    dynamic
+1       10:60:4b:5e:ee:1b    g24    dynamic
+1       10:60:4b:5e:ee:62    g24    dynamic
+1       20:bb:c0:7d:fb:96    g24    dynamic
+1       20:bb:c0:7d:fb:a0    g24    dynamic
+1       20:bb:c0:c1:20:5b    g24    dynamic
+1       20:bb:c0:c1:20:ec    g24    dynamic
+1       20:bb:c0:c1:21:7d    g24    dynamic
+1       20:bb:c0:c1:22:65    g24    dynamic
+1       20:bb:c0:c1:23:fb    g24    dynamic
+1       20:bb:c0:c1:dd:c3    g24    dynamic
+1       2c:41:38:af:a9:be    g24    dynamic
+1       2c:44:fd:0d:62:81    g24    dynamic
+1       2c:44:fd:35:8b:2e    g24    dynamic
+1       2c:44:fd:36:1e:0c    g24    dynamic
+1       2c:44:fd:36:1e:24    g24    dynamic
+1       2c:44:fd:36:1e:27     g7    dynamic
+1       3c:d9:2b:56:8e:4d    g24    dynamic
+1       3c:d9:2b:5e:94:0d    g24    dynamic
+1       40:01:c6:71:24:40    g24    dynamic
+1       40:01:c6:71:6c:40    g24    dynamic
+1       40:a8:f0:54:68:93     g3    dynamic
+1       40:a8:f0:5f:d7:16    g24    dynamic
+1       40:a8:f0:5f:d7:54    g24    dynamic
+1       40:a8:f0:60:07:87    g24    dynamic
+1       40:a8:f0:60:8d:50    g24    dynamic
+1       40:a8:f0:61:d5:2f    g24    dynamic
+1       40:a8:f0:62:4e:11    g24    dynamic
+1       40:a8:f0:63:4b:84    g24    dynamic
+1       50:52:43:08:01:13    g24    dynamic
+1       5c:a4:8a:6c:8a:ff    g24    dynamic
+1       68:79:ed:74:65:69    g24    dynamic
+1       74:46:a0:b0:4a:81    g24    dynamic
+1       78:54:2e:17:95:04    g24    dynamic
+1       78:ac:c0:94:33:a6    g24    dynamic
+1       78:ac:c0:94:35:4b    g24    dynamic
+1       78:ac:c0:96:a7:59    g24    dynamic
+1       78:ac:c0:96:a7:7d    g24    dynamic
+1       78:ac:c0:96:a7:7e    g24    dynamic
+1       78:ac:c0:96:a7:c0    g24    dynamic
+1       78:ac:c0:9f:8e:f4    g24    dynamic
+1       80:c1:6e:e3:ba:fd    g24    dynamic
+1       80:c1:6e:e5:27:8a    g24    dynamic
+1       80:c1:6e:eb:dd:73    g24    dynamic
+1       80:c1:6e:ee:e7:a8    g24    dynamic
+1       80:c1:6e:f1:0a:c3    g24    dynamic
+1       88:51:fb:56:ee:3c    g24    dynamic
+1       90:2b:34:01:d5:ae    g24    dynamic
+1       a4:1f:72:7a:e6:35     g1    dynamic
+1       ac:16:2d:00:a5:a1    g24    dynamic
+1       ac:16:2d:11:27:72    g24    dynamic
+1       b0:00:b4:0f:48:55    g24    dynamic
+1       b0:00:b4:0f:48:e6    g24    dynamic
+1       b0:00:b4:0f:49:02    g24    dynamic
+1       b4:b5:2f:b6:9d:52    g24    dynamic
+1       b4:b5:2f:b7:56:92    g24    dynamic
+1       bc:b1:81:65:f0:8e    g24    dynamic
+1       c4:34:6b:5c:cc:1a    g24    dynamic
+1       c4:34:6b:5e:14:0c    g24    dynamic
+1       c8:d3:a3:08:10:92     g1    dynamic
+1       cc:d5:39:51:fa:f5    g24    dynamic
+1       cc:d5:39:52:4e:72    g24    dynamic
+1       d4:85:64:a9:d9:e1    g24    dynamic
+1       d4:85:64:bc:c8:c5    g24    dynamic
+1       d8:d3:85:81:08:e7    g24    dynamic
+1       e8:39:35:50:28:45    g24    dynamic
+1       f0:92:1c:e0:bd:38    g24    dynamic
+1       f0:92:1c:e0:be:80    g24    dynamic
+1       f0:92:1c:e0:be:d5    g24    dynamic
+1       f0:92:1c:e2:6c:67    g24    dynamic
+1       f0:92:1c:e2:6c:c6    g24    dynamic
+1       f0:92:1c:e2:6e:07    g24    dynamic
+1       f0:92:1c:e2:6e:38    g24    dynamic
+1       f0:92:1c:e2:73:52    g24    dynamic
+1       f0:92:1c:e7:cf:56    g24    dynamic
+1       f0:92:1c:e7:d2:71    g24    dynamic
+1       f0:92:1c:eb:83:1d    g24    dynamic
+1       f0:92:1c:f3:8e:7f    g24    dynamic
+100      00:0f:e2:14:69:df    g24    dynamic
+100      00:0f:e2:14:6a:07    g24    dynamic
+100      00:1e:c1:d7:1e:c1    g24    dynamic
+100      00:1e:c1:d7:26:41    g24    dynamic
+100      00:1e:c1:d7:70:c1    g24    dynamic
+100      00:1e:c1:f3:31:41    g24    dynamic
+100      00:24:73:42:60:41    g24    dynamic
+100      00:24:73:8b:5e:81    g24    dynamic
+100      00:24:73:a3:3d:60    g24    dynamic
+100      00:e1:6d:8f:1b:55    g24    dynamic
+100      00:e1:6d:8f:1d:39    g24    dynamic
+100      00:e1:6d:8f:1e:41    g24    dynamic
+100      04:da:d2:0c:d2:6e    g24    dynamic
+100      04:da:d2:0c:d6:0e    g24    dynamic
+100      04:da:d2:0c:d8:18    g24    dynamic
+100      04:da:d2:0e:df:e6    g24    dynamic
+100      20:bb:c0:7d:fb:96    g24    dynamic
+100      20:bb:c0:c1:0e:02    g24    dynamic
+100      20:bb:c0:c1:1f:cb    g24    dynamic
+100      20:bb:c0:c1:20:3f    g24    dynamic
+100      20:bb:c0:c1:20:d0    g24    dynamic
+100      20:bb:c0:c1:21:61    g24    dynamic
+100      20:bb:c0:c1:22:49    g24    dynamic
+100      20:bb:c0:c1:23:df    g24    dynamic
+100      20:bb:c0:c1:dd:a7    g24    dynamic
+100      2c:36:f8:48:c8:57    g24    dynamic
+100      40:01:c6:71:24:41    g24    dynamic
+100      40:01:c6:71:6c:41    g24    dynamic
+100      5c:a4:8a:6c:8a:ff    g24    dynamic
+100      a0:cf:5b:e5:7b:3c    g24    dynamic
+100      b0:00:b4:0f:48:55    g24    dynamic
+100      b0:00:b4:0f:48:e6    g24    dynamic
+100      b4:e9:b0:69:f2:5b    g24    dynamic
+100      cc:d5:39:51:fa:d9    g24    dynamic
+100      cc:d5:39:52:4d:51    g24    dynamic
+100      cc:d5:39:52:4e:56    g24    dynamic
+Villamosautomatika_Fsz_R1_2sw#
+show arp
+show arp
+ARP timeout: 300 Seconds
+VLAN    Interface     IP address        HW address          status
+--------------------- --------------- ------------------- ---------------
+vlan 100   g24        10.22.100.1     00:0f:e2:14:6a:07   dynamic
+Villamosautomatika_Fsz_R1_2sw#
+Villamosautomatika_Fsz_R1_2sw#

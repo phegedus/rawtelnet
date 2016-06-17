@@ -1,0 +1,202 @@
+--- cmdShow log 2014.12.07 11:11:15 ---
+DG-Beru-1em-R1-2sw#
+show running
+config-file-header
+DG-Beru-1em-R1-2sw
+v1.2.7.76 / R750_NIK_1_2_584_002
+CLI v1.0
+file SSD indicator encrypted
+@
+ssd-control-start
+ssd config
+ssd file passphrase control unrestricted
+no ssd file integrity control
+ssd-control-end cb0a3fdb1f3a1af4e4430033719968c0
+!
+no cdp log mismatch duplex
+no spanning-tree
+vlan database
+vlan 4,16,22,32,36-37,100,249-250
+exit
+voice vlan id 37
+voice vlan state oui-enabled
+voice vlan oui-table add 0001e3 Siemens_AG_phone________
+voice vlan oui-table add 00036b Cisco_phone_____________
+voice vlan oui-table add 00096e Avaya___________________
+voice vlan oui-table add 000fe2 H3C_Aolynk______________
+voice vlan oui-table add 0060b9 Philips_and_NEC_AG_phone
+voice vlan oui-table add 00d01e Pingtel_phone___________
+voice vlan oui-table add 00e075 Polycom/Veritel_phone___
+voice vlan oui-table add 00e0bb 3Com_phone______________
+voice vlan oui-table add 30e4db Cisco_SP502G____________
+voice vlan oui-table add 58bfea Cisco_SP502G____________
+voice vlan oui-table add 649ef3 Cisco_SP502G____________
+voice vlan oui-table add 708105 Cisco_SP502G____________
+voice vlan oui-table add ccef48 Cisco_SP502G____________
+voice vlan oui-table add e02f6d Cisco_SP502G____________
+voice vlan oui-table add e8b748 Cisco_SP502G____________
+hostname DG-Beru-1em-R1-2sw
+enable password level 15 encrypted bab4a0d3a967180a7b630202cd53dee66ddc0af7
+passwords complexity min-length 6
+passwords complexity min-classes 2
+no passwords complexity not-current
+passwords aging 0
+username admin password encrypted ea3b9f2623ddc1e05c67327b2f126edee4e57996 privilege 15
+snmp-server server
+snmp-server location DG_Beru_1em_R1
+snmp-server contact R151218
+snmp-server community gedeon3 ro view Default
+snmp-server community gedeon3 ro 10.101.0.175 view Default
+clock timezone HU +1
+clock summer-time HU recurring eu
+clock source sntp
+sntp unicast client enable
+sntp unicast client poll
+sntp server 10.101.2.5 poll
+ip telnet server
+!
+interface vlan 4
+name Wireless
+!
+interface vlan 16
+name User_printer
+!
+interface vlan 22
+name Dorogi_mero_halo
+!
+interface vlan 32
+name Fix_ip_nem_pc
+!
+interface vlan 36
+name Voice
+!
+interface vlan 37
+name Asterix_VoIP
+!
+interface vlan 100
+name Management
+ip address 10.22.100.29 255.255.254.0
+no ip address dhcp
+!
+interface vlan 249
+name Kromatograf
+!
+interface vlan 250
+name Epuletfelugyelet
+
+!
+interface gigabitethernet1
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet2
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet3
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet4
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet5
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet6
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet7
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet8
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet9
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet10
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet11
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet12
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet13
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet14
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet15
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet16
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet17
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet18
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet19
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet20
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet21
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet22
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet23
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet24
+rate-limit 100000 128000
+switchport mode access
+!
+interface gigabitethernet25
+switchport trunk allowed vlan add 4,16,22,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet26
+switchport trunk allowed vlan add 4,16,22,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet27
+switchport trunk allowed vlan add 4,16,22,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet28
+switchport trunk allowed vlan add 4,16,22,32,36-37,100,249-250
+no macro auto smartport
+!
+ip default-gateway 10.22.100.1
+ip default-gateway 10.22.100.2
+

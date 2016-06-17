@@ -1,0 +1,624 @@
+--- cmdShow log 2014.12.19 13:40:14 ---
+DG-Beru-1em-R1-Fo...#terminal datadump
+DG-Beru-1em-R1-Fo...#
+DG-Beru-1em-R1-Fo...#show system
+System Description:                       28-Port Gigabit Managed Switch
+System Up Time (days,hour:min:sec):       115,07:17:48
+System Contact:                           R151229
+System Name:                              DG-Beru-1em-R1-Fogado
+System Location:                          DG_Beru_1em_R1
+System MAC Address:                       20:bb:c0:c1:22:49
+System Object ID:                         1.3.6.1.4.1.9.6.1.83.28.1
+
+
+DG-Beru-1em-R1-Fo...#
+DG-Beru-1em-R1-Fo...#show version
+SW version    1.2.7.76 ( date  19-Jul-2012 time  17:54:43 )
+Boot version    1.1.0.6 ( date  11-May-2011 time  18:31:00 )
+HW version    V02
+DG-Beru-1em-R1-Fo...#
+DG-Beru-1em-R1-Fo...#show cdp neighbor detail
+---------------------------------------------
+Device-ID: 20bbc0c11fcb
+Advertisement version: 2
+Platform: Cisco SG300-28 (PID:SRW2024-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi27, Port ID (outgoing port): gi28
+Holdtime: 38
+Version: 1.2.7.76
+Duplex: full
+Native VLAN: 1
+Application: VoIP using VLAN 37
+SysName: DG-Beru-1em-R1-2sw
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.29
+---------------------------------------------
+Device-ID: 20bbc07dfb96
+Advertisement version: 2
+Platform: Cisco SG300-10SFP (PID:SG300-10SFP-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi10
+Holdtime: 9
+Version: 1.3.7.18
+Duplex: full
+Native VLAN: 1
+SysName: DG-Info-R2-Opt-Eloszto
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.41
+IPv6 fe80::22bb:c0ff:fe7d:fb96 (link-local)
+---------------------------------------------
+Device-ID: 04dad20cd26e
+Advertisement version: 2
+Platform: Cisco SG300-28 (PID:SRW2024-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi27
+Holdtime: 11
+Version: 1.2.7.76
+Duplex: full
+Native VLAN: 1
+SysName: DG-MIFO-B-R1-4sw
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.22
+---------------------------------------------
+Device-ID: b000b40f48e6
+Advertisement version: 2
+Platform: Cisco SG300-28 (PID:SRW2024-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi28
+Holdtime: 46
+Version: 1.3.0.62
+Duplex: full
+Native VLAN: 1
+Application: VoIP using VLAN 37
+SysName: DG-Orvosianyag-1em-R1-Fogado
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.55
+IPv6 fe80::b200:b4ff:fe0f:48e6 (link-local)
+---------------------------------------------
+Device-ID: 00e16d8f1d39
+Advertisement version: 2
+Platform: Cisco SG300-10SFP (PID:SG300-10SFP-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi1
+Holdtime: 49
+Version: 1.3.5.58
+Duplex: full
+Native VLAN: 1
+Application: VoIP using VLAN 37
+SysName: DG-Szteroid2uz-1em-R1-Opt-Eloszto
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.53
+IPv6 fe80::2e1:6dff:fe8f:1d39 (link-local)
+---------------------------------------------
+Device-ID: 20bbc0c1203f
+Advertisement version: 2
+Platform: Cisco SG300-28 (PID:SRW2024-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi28
+Holdtime: 52
+Version: 1.2.7.76
+Duplex: full
+Native VLAN: 1
+Application: VoIP using VLAN 37
+SysName: DG-Szteroid-uzem-1em-R2-Fogado
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.31
+---------------------------------------------
+Device-ID: 00e16d8f1b55
+Advertisement version: 2
+Platform: Cisco SG300-10SFP (PID:SG300-10SFP-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi1
+Holdtime: 81
+Version: 1.3.5.58
+Duplex: full
+Native VLAN: 1
+Application: VoIP using VLAN 37
+SysName: DG-Kornyvu-fszt-R1-Opt-Eloszto
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.52
+IPv6 fe80::2e1:6dff:fe8f:1b55 (link-local)
+---------------------------------------------
+Device-ID: 20bbc0c123df
+Advertisement version: 2
+Platform: Cisco SG300-28 (PID:SRW2024-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi28
+Holdtime: 103
+Version: 1.2.7.76
+Duplex: full
+Native VLAN: 1
+Application: VoIP using VLAN 37
+SysName: DG-Biztech-1em-R1-Fogado
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.34
+---------------------------------------------
+Device-ID: 20bbc0c120d0
+Advertisement version: 2
+Platform: Cisco SG300-28 (PID:SRW2024-K9)-VSD
+Capabilities: Switch IGMP
+Interface: gi28, Port ID (outgoing port): gi28
+Holdtime: 127
+Version: 1.2.7.76
+Duplex: full
+Native VLAN: 1
+Application: VoIP using VLAN 37
+SysName: DG-Kornyezetviroda-fszt-R1-Fogado
+SysObjectID: 0.0
+Addresses:
+IP 10.22.100.32
+DG-Beru-1em-R1-Fo...#show lldp neighbor
+
+System capability legend:
+B - Bridge; R - Router; W - Wlan Access Point; T - telephone;
+D - DOCSIS Cable Device; H - Host; r - Repeater;
+TP - Two Ports MAC Relay; S - S-VLAN; C - C-VLAN; O - Other
+
+Port        Device ID        Port ID       System Name    Capabilities  TTL
+--------- ----------------- ------------- ----------------- ------------ -----
+
+DG-Beru-1em-R1-Fo...#
+DG-Beru-1em-R1-Fo...#show mac address-table
+Aging time is 300 sec
+
+Vlan        Mac Address         Port       Type
+-------- --------------------- ---------- ----------
+1       00:00:5e:00:01:01      gi28     dynamic
+1       00:02:d1:05:58:87      gi28     dynamic
+1       00:04:a3:cc:02:26      gi24     dynamic
+1       00:0a:b7:44:d6:18      gi28     dynamic
+1       00:0c:46:46:2d:20      gi28     dynamic
+1       00:0c:46:46:32:80      gi28     dynamic
+1       00:0c:46:4b:32:20      gi28     dynamic
+1       00:0c:46:4c:94:40      gi28     dynamic
+1       00:0c:46:4e:e0:20      gi28     dynamic
+1       00:0c:46:4e:ed:40      gi28     dynamic
+1       00:0c:46:4e:f1:e0      gi28     dynamic
+1       00:0d:ed:28:0e:98      gi28     dynamic
+1       00:0e:7f:35:5c:17      gi28     dynamic
+1       00:0e:7f:a9:cf:91      gi28     dynamic
+1       00:0f:e2:07:f2:e0      gi28     dynamic
+1       00:0f:e2:14:69:df      gi28     dynamic
+1       00:0f:e2:14:6a:07      gi28     dynamic
+1       00:0f:fe:c1:a7:dd      gi28     dynamic
+1       00:0f:fe:c1:aa:9a      gi28     dynamic
+1       00:0f:fe:c1:aa:b4      gi28     dynamic
+1       00:0f:fe:c1:ab:a7      gi28     dynamic
+1       00:0f:fe:c1:b1:ac      gi28     dynamic
+1       00:0f:fe:c9:cb:cd      gi28     dynamic
+1       00:0f:fe:cc:27:dc      gi28     dynamic
+1       00:0f:fe:f1:e2:96      gi28     dynamic
+1       00:0f:fe:f1:e2:b0      gi28     dynamic
+1       00:0f:fe:f1:e2:b3      gi28     dynamic
+1       00:0f:fe:f1:e2:bb      gi28     dynamic
+1       00:0f:fe:f1:e2:bc      gi22     dynamic
+1       00:0f:fe:f1:e2:d7      gi28     dynamic
+1       00:0f:fe:f1:e2:dc      gi28     dynamic
+1       00:0f:fe:f1:e2:e0      gi28     dynamic
+1       00:0f:fe:f1:e2:e5      gi28     dynamic
+1       00:0f:fe:f1:e2:fd      gi28     dynamic
+1       00:0f:fe:f1:e3:15      gi28     dynamic
+1       00:0f:fe:f1:e3:19      gi28     dynamic
+1       00:0f:fe:f1:e3:40      gi27     dynamic
+1       00:12:3f:44:62:ae      gi28     dynamic
+1       00:12:79:a8:ec:d9      gi28     dynamic
+1       00:13:72:fe:1c:a2      gi28     dynamic
+1       00:15:62:41:fa:b1      gi28     dynamic
+1       00:16:76:03:3d:48      gi28     dynamic
+1       00:18:6e:6d:4c:80      gi28     dynamic
+1       00:18:8b:2c:4f:17      gi28     dynamic
+1       00:19:b9:00:d2:1a      gi28     dynamic
+1       00:19:b9:05:9f:29      gi28     dynamic
+1       00:19:b9:06:28:c8      gi28     dynamic
+1       00:19:b9:06:42:ff      gi28     dynamic
+1       00:19:b9:06:59:b2      gi28     dynamic
+1       00:1a:a0:bb:34:f7      gi28     dynamic
+1       00:1a:a0:e8:04:05      gi28     dynamic
+1       00:1a:a0:e8:19:0a      gi28     dynamic
+1       00:1a:a0:e9:d8:65      gi27     dynamic
+1       00:1a:c1:56:67:ce      gi28     dynamic
+1       00:1b:1b:43:0e:1f      gi28     dynamic
+1       00:1b:78:0c:6c:c8      gi28     dynamic
+1       00:1c:ee:60:e6:1b      gi27     dynamic
+1       00:1d:7d:08:ef:67      gi28     dynamic
+1       00:1d:7d:08:ef:6b      gi28     dynamic
+1       00:1d:7d:09:0d:29      gi28     dynamic
+1       00:1d:7d:09:22:7b      gi28     dynamic
+1       00:1d:7d:57:ab:06      gi28     dynamic
+1       00:1e:4f:92:1c:70      gi28     dynamic
+1       00:1e:4f:92:25:e1      gi28     dynamic
+1       00:1e:4f:92:28:db      gi28     dynamic
+1       00:1e:4f:92:29:b3      gi28     dynamic
+1       00:1e:4f:92:2d:ae      gi28     dynamic
+1       00:1e:4f:92:2e:8e      gi28     dynamic
+1       00:1e:4f:92:55:37      gi28     dynamic
+1       00:1e:4f:92:97:d0      gi28     dynamic
+1       00:1e:4f:92:e4:55      gi28     dynamic
+1       00:1e:4f:94:4e:b6      gi28     dynamic
+1       00:1e:4f:94:4f:7b      gi28     dynamic
+1       00:1e:4f:94:7d:ba      gi28     dynamic
+1       00:1e:4f:94:c6:2d      gi28     dynamic
+1       00:1e:4f:ed:44:4f      gi28     dynamic
+1       00:1e:4f:ed:5a:74      gi28     dynamic
+1       00:1e:4f:ed:a2:cd      gi28     dynamic
+1       00:1e:4f:ed:a4:2d      gi28     dynamic
+1       00:1e:c1:5b:2a:a0      gi28     dynamic
+1       00:1e:c1:d7:1e:c0      gi28     dynamic
+1       00:1e:c1:d7:70:c0      gi28     dynamic
+1       00:20:4a:8c:9a:02      gi28     dynamic
+1       00:20:4a:8c:9a:05      gi28     dynamic
+1       00:20:4a:8c:9a:08      gi13     dynamic
+1       00:20:4a:8c:9a:0d      gi28     dynamic
+1       00:20:4a:8c:9a:2b      gi28     dynamic
+1       00:20:4a:8c:9a:2e      gi28     dynamic
+1       00:20:4a:eb:9b:df      gi2      dynamic
+1       00:21:9b:6e:52:b1      gi28     dynamic
+1       00:21:9b:6e:54:cc      gi28     dynamic
+1       00:21:9b:6f:21:e8      gi28     dynamic
+1       00:21:9b:6f:23:43      gi28     dynamic
+1       00:21:9b:6f:24:c9      gi27     dynamic
+1       00:21:9b:6f:37:6a      gi28     dynamic
+1       00:21:9b:72:61:57      gi28     dynamic
+1       00:21:9b:72:64:25      gi28     dynamic
+1       00:21:9b:72:65:1c      gi28     dynamic
+1       00:21:9b:72:66:56      gi28     dynamic
+1       00:21:9b:72:c8:df      gi28     dynamic
+1       00:22:19:00:4f:92      gi28     dynamic
+1       00:22:19:00:a5:46      gi28     dynamic
+1       00:22:19:00:ac:89      gi28     dynamic
+1       00:22:19:00:b2:0e      gi28     dynamic
+1       00:22:f3:9c:d3:64      gi28     dynamic
+1       00:23:24:0d:ed:cc      gi28     dynamic
+1       00:23:24:0e:07:d4      gi28     dynamic
+1       00:23:24:0e:07:d7      gi28     dynamic
+1       00:23:24:0e:08:11      gi28     dynamic
+1       00:23:24:0f:e6:72      gi28     dynamic
+1       00:23:24:13:ab:cb      gi28     dynamic
+1       00:23:24:21:e4:93      gi27     dynamic
+1       00:23:24:30:f7:28      gi27     dynamic
+1       00:23:24:33:fb:1b      gi28     dynamic
+1       00:23:ab:0b:1c:c2      gi28     dynamic
+1       00:23:ae:54:7e:47      gi28     dynamic
+1       00:24:73:42:60:40      gi28     dynamic
+1       00:24:73:8b:5e:80      gi28     dynamic
+1       00:25:36:06:e9:32      gi28     dynamic
+1       00:25:36:06:f9:60      gi28     dynamic
+1       00:25:36:26:02:88      gi28     dynamic
+1       00:30:84:24:97:4a      gi28     dynamic
+1       00:80:87:2c:71:b7      gi28     dynamic
+1       00:80:87:8c:81:03      gi28     dynamic
+1       00:80:a3:9d:e4:ba      gi28     dynamic
+1       00:80:f4:01:47:1b      gi28     dynamic
+1       00:90:e8:04:29:8d      gi28     dynamic
+1       00:90:e8:04:ab:22      gi28     dynamic
+1       00:c0:ee:2e:79:d5      gi28     dynamic
+1       00:c0:ee:2e:79:de      gi28     dynamic
+1       00:c0:ee:2e:79:e2      gi28     dynamic
+1       00:c0:ee:2e:7b:ba      gi28     dynamic
+1       00:c0:ee:2e:7b:cd      gi28     dynamic
+1       00:c0:ee:2e:80:62      gi28     dynamic
+1       00:c0:ee:2e:85:02      gi28     dynamic
+1       00:c0:ee:2e:b2:87      gi28     dynamic
+1       00:c0:ee:36:9f:76      gi28     dynamic
+1       00:c0:ee:47:ee:53      gi28     dynamic
+1       00:c0:ee:4a:cb:aa      gi28     dynamic
+1       00:c0:ee:50:93:9a      gi28     dynamic
+1       00:c0:ee:54:5d:76      gi28     dynamic
+1       00:c0:ee:54:bb:3d      gi28     dynamic
+1       00:c0:ee:74:fe:3f      gi28     dynamic
+1       00:c0:ee:83:52:5b      gi28     dynamic
+1       00:c0:ee:83:55:3a      gi27     dynamic
+1       00:c0:ee:89:eb:dd      gi28     dynamic
+1       00:c0:ee:8b:4c:7f      gi28     dynamic
+1       00:c0:ee:90:b1:5d      gi14     dynamic
+1       00:c0:ee:90:bc:c3      gi28     dynamic
+1       00:c0:ee:94:41:db      gi28     dynamic
+1       00:c0:ee:94:41:f5      gi28     dynamic
+1       00:c0:ee:9e:76:6c      gi28     dynamic
+1       00:c0:ee:ab:a5:e8      gi28     dynamic
+1       00:c0:ee:ac:e8:4a      gi18     dynamic
+1       00:c0:ee:ad:3d:a4      gi28     dynamic
+1       00:c0:ee:ad:f4:e2      gi28     dynamic
+1       00:c0:ee:b6:ee:35      gi28     dynamic
+1       00:c0:ee:bb:9a:7b      gi28     dynamic
+1       00:c0:ee:bb:9b:fb      gi28     dynamic
+1       00:c0:ee:d6:5c:76      gi27     dynamic
+1       00:e1:6d:8f:1b:55      gi28     dynamic
+1       00:e1:6d:8f:1b:56      gi28     dynamic
+1       00:e1:6d:8f:1d:39      gi28     dynamic
+1       00:e1:6d:8f:1d:3a      gi28     dynamic
+1       00:e1:6d:8f:1e:41      gi28     dynamic
+1       04:da:d2:0c:d2:89      gi28     dynamic
+1       04:da:d2:0c:d8:34      gi28     dynamic
+1       10:60:4b:5a:18:e9      gi28     dynamic
+1       10:60:4b:5a:19:18      gi28     dynamic
+1       10:60:4b:5a:19:1e      gi28     dynamic
+1       10:60:4b:5a:19:27      gi23     dynamic
+1       10:60:4b:5a:19:32      gi28     dynamic
+1       10:60:4b:5a:19:46      gi28     dynamic
+1       10:60:4b:5a:19:50      gi28     dynamic
+1       10:60:4b:5d:3e:d9      gi28     dynamic
+1       10:60:4b:5e:77:21      gi28     dynamic
+1       10:60:4b:5e:77:2a      gi27     dynamic
+1       10:60:4b:5e:77:53      gi28     dynamic
+1       10:60:4b:5e:77:66      gi28     dynamic
+1       10:60:4b:5e:77:81      gi28     dynamic
+1       10:60:4b:5e:77:88      gi28     dynamic
+1       10:60:4b:5e:77:b4      gi28     dynamic
+1       10:60:4b:5e:77:ba      gi28     dynamic
+1       10:60:4b:5e:eb:91      gi28     dynamic
+1       10:60:4b:5e:ee:17      gi28     dynamic
+1       10:60:4b:5e:ee:1b      gi28     dynamic
+1       10:60:4b:5e:ee:3a      gi28     dynamic
+1       10:60:4b:5e:ee:45      gi28     dynamic
+1       10:60:4b:5e:ee:5c      gi28     dynamic
+1       10:60:4b:5e:ee:5f      gi28     dynamic
+1       10:60:4b:5e:ee:60      gi28     dynamic
+1       10:60:4b:5e:ee:6a      gi28     dynamic
+1       10:60:4b:5e:ee:71      gi28     dynamic
+1       10:60:4b:5e:ee:79      gi28     dynamic
+1       10:60:4b:60:5e:af      gi28     dynamic
+1       10:60:4b:64:18:b1      gi28     dynamic
+1       10:60:4b:65:4b:d0      gi28     dynamic
+1       10:60:4b:65:4b:d7      gi28     dynamic
+1       10:60:4b:67:81:60      gi28     dynamic
+1       1c:bd:b9:e5:c6:01      gi28     dynamic
+1       20:bb:c0:7d:fb:96      gi28     dynamic
+1       20:bb:c0:7d:fb:a0      gi28     dynamic
+1       20:bb:c0:c1:1f:e7      gi27     dynamic
+1       20:bb:c0:c1:20:5b      gi28     dynamic
+1       20:bb:c0:c1:20:ec      gi28     dynamic
+1       20:bb:c0:c1:21:7c      gi28     dynamic
+1       20:bb:c0:c1:21:7d      gi28     dynamic
+1       20:bb:c0:c1:22:49       0         self
+1       20:bb:c0:c1:23:fb      gi28     dynamic
+1       20:bb:c0:c1:dd:c3      gi28     dynamic
+1       24:be:05:0f:36:c2      gi28     dynamic
+1       24:be:05:17:fb:64      gi28     dynamic
+1       24:be:05:1c:9a:06      gi28     dynamic
+1       24:be:05:1c:9a:2b      gi28     dynamic
+1       24:be:05:1d:d1:c2      gi28     dynamic
+1       24:be:05:22:04:b7      gi28     dynamic
+1       24:be:05:22:04:ba      gi28     dynamic
+1       2c:41:38:9a:94:af      gi28     dynamic
+1       2c:41:38:af:a9:be      gi28     dynamic
+1       2c:41:38:b0:f9:76      gi28     dynamic
+1       2c:41:38:b0:f9:fc      gi28     dynamic
+1       2c:41:38:b3:5d:3d      gi28     dynamic
+1       2c:44:fd:35:5e:b5      gi28     dynamic
+1       2c:44:fd:35:60:07      gi28     dynamic
+1       2c:44:fd:35:60:18      gi28     dynamic
+1       2c:44:fd:35:60:97      gi28     dynamic
+1       2c:44:fd:35:8b:2c      gi28     dynamic
+1       2c:44:fd:35:8c:db      gi28     dynamic
+1       2c:44:fd:35:8c:eb      gi28     dynamic
+1       2c:44:fd:35:8c:ed      gi28     dynamic
+1       2c:44:fd:35:8d:92      gi28     dynamic
+1       2c:44:fd:36:1c:56      gi28     dynamic
+1       2c:44:fd:36:1c:73      gi28     dynamic
+1       2c:44:fd:36:1c:7a      gi28     dynamic
+1       2c:44:fd:36:1e:0c      gi28     dynamic
+1       2c:44:fd:36:1e:27      gi28     dynamic
+1       2c:44:fd:36:1e:b0      gi28     dynamic
+1       2c:44:fd:36:4b:77      gi18     dynamic
+1       2c:44:fd:36:4b:bb      gi28     dynamic
+1       34:f6:2d:36:50:86      gi28     dynamic
+1       34:f6:2d:a9:9c:bb      gi28     dynamic
+1       3c:d9:2b:51:77:0e      gi28     dynamic
+1       3c:d9:2b:55:39:92      gi28     dynamic
+1       3c:d9:2b:56:8e:4d      gi28     dynamic
+1       3c:d9:2b:56:ac:28      gi28     dynamic
+1       3c:d9:2b:56:c8:87      gi28     dynamic
+1       3c:d9:2b:58:c0:31      gi28     dynamic
+1       3c:d9:2b:6f:a3:4c      gi27     dynamic
+1       40:01:c6:71:24:40      gi28     dynamic
+1       40:01:c6:71:6c:40      gi28     dynamic
+1       40:a8:f0:54:68:8e      gi28     dynamic
+1       40:a8:f0:54:68:93      gi28     dynamic
+1       40:a8:f0:5f:d7:17      gi28     dynamic
+1       40:a8:f0:5f:d8:39      gi28     dynamic
+1       40:a8:f0:60:07:85      gi28     dynamic
+1       40:a8:f0:60:07:87      gi28     dynamic
+1       40:a8:f0:60:07:a5      gi28     dynamic
+1       40:a8:f0:60:8c:5e      gi28     dynamic
+1       40:a8:f0:61:d4:ff      gi28     dynamic
+1       40:a8:f0:61:d5:06      gi28     dynamic
+1       40:a8:f0:61:d5:2f      gi28     dynamic
+1       40:a8:f0:63:4b:84      gi28     dynamic
+1       64:31:50:20:b7:07      gi28     dynamic
+1       68:79:ed:74:65:69      gi28     dynamic
+1       6c:3b:e5:10:26:1c      gi28     dynamic
+1       74:46:a0:91:fd:8a      gi28     dynamic
+1       74:46:a0:91:fd:93      gi28     dynamic
+1       74:46:a0:94:2a:3e      gi28     dynamic
+1       74:46:a0:96:26:47      gi28     dynamic
+1       74:46:a0:96:26:63      gi28     dynamic
+1       74:46:a0:97:8a:3f      gi28     dynamic
+1       74:46:a0:aa:27:f3      gi28     dynamic
+1       74:46:a0:aa:28:17      gi28     dynamic
+1       74:46:a0:ab:2f:df      gi28     dynamic
+1       74:46:a0:b0:4a:81      gi28     dynamic
+1       74:46:a0:b1:06:17      gi28     dynamic
+1       74:46:a0:b1:07:a3      gi27     dynamic
+1       74:46:a0:b1:84:79      gi28     dynamic
+1       78:ac:c0:94:34:53      gi28     dynamic
+1       78:ac:c0:94:35:25      gi28     dynamic
+1       78:ac:c0:94:35:4b      gi28     dynamic
+1       78:ac:c0:94:35:4d      gi28     dynamic
+1       78:ac:c0:94:35:70      gi28     dynamic
+1       78:ac:c0:94:35:84      gi28     dynamic
+1       78:ac:c0:94:35:85      gi28     dynamic
+1       78:ac:c0:96:a7:59      gi28     dynamic
+1       78:ac:c0:96:a7:7d      gi28     dynamic
+1       78:ac:c0:96:a7:7e      gi28     dynamic
+1       78:ac:c0:96:a7:c0      gi27     dynamic
+1       78:ac:c0:96:a7:c7      gi28     dynamic
+1       78:ac:c0:ba:30:e1      gi28     dynamic
+1       80:c1:6e:e2:75:5f      gi20     dynamic
+1       80:c1:6e:e3:4c:4f      gi28     dynamic
+1       80:c1:6e:e3:b9:ed      gi28     dynamic
+1       80:c1:6e:e3:ba:ee      gi27     dynamic
+1       80:c1:6e:e3:bb:0b      gi28     dynamic
+1       80:c1:6e:e3:f2:a2      gi28     dynamic
+1       80:c1:6e:ee:e7:a4      gi28     dynamic
+1       80:c1:6e:ee:e7:a8      gi28     dynamic
+1       80:c1:6e:f1:0a:d6      gi28     dynamic
+1       80:c1:6e:fa:a8:94      gi28     dynamic
+1       90:2b:34:01:d5:ae      gi28     dynamic
+1       9c:c7:d1:c3:88:05      gi28     dynamic
+1       a0:48:1c:77:16:9b      gi28     dynamic
+1       a0:48:1c:87:d1:73      gi28     dynamic
+1       a0:b3:cc:f9:47:d7      gi28     dynamic
+1       a0:b3:cc:f9:47:eb      gi28     dynamic
+1       ac:16:2d:00:a5:a1      gi28     dynamic
+1       ac:16:2d:01:8e:56      gi28     dynamic
+1       ac:16:2d:01:8e:72      gi28     dynamic
+1       ac:16:2d:11:27:72      gi28     dynamic
+1       ac:16:2d:11:27:cb      gi28     dynamic
+1       b0:00:b4:0f:48:55      gi28     dynamic
+1       b0:00:b4:0f:48:e6      gi28     dynamic
+1       b0:00:b4:0f:49:02      gi28     dynamic
+1       b4:b5:2f:b6:9d:52      gi28     dynamic
+1       b4:b5:2f:b7:18:15      gi28     dynamic
+1       b4:b5:2f:b7:18:29      gi28     dynamic
+1       b4:b5:2f:b7:18:40      gi28     dynamic
+1       b4:b5:2f:b7:18:47      gi28     dynamic
+1       b4:b5:2f:b7:18:54      gi28     dynamic
+1       b4:b5:2f:b7:18:55      gi28     dynamic
+1       b4:b5:2f:b7:18:7c      gi28     dynamic
+1       b4:b5:2f:b7:18:8b      gi28     dynamic
+1       b4:b5:2f:b7:18:8c      gi28     dynamic
+1       b4:b5:2f:b7:18:a0      gi28     dynamic
+1       b4:b5:2f:b7:19:56      gi27     dynamic
+1       b4:b5:2f:b7:19:5c      gi28     dynamic
+1       b4:b5:2f:b7:19:73      gi28     dynamic
+1       b4:b5:2f:b7:19:77      gi28     dynamic
+1       b4:b5:2f:b7:19:f2      gi27     dynamic
+1       b4:b5:2f:b7:4c:1b      gi28     dynamic
+1       b4:b5:2f:b7:55:6d      gi28     dynamic
+1       b4:b5:2f:b7:56:8f      gi28     dynamic
+1       b4:b5:2f:b7:56:90      gi28     dynamic
+1       b4:b5:2f:b7:56:99      gi28     dynamic
+1       b4:b5:2f:b7:56:aa      gi28     dynamic
+1       b4:b5:2f:b7:56:ac      gi9      dynamic
+1       b4:b5:2f:b7:58:5c      gi28     dynamic
+1       bc:b1:81:65:f0:8e      gi28     dynamic
+1       bc:b1:81:66:2f:78      gi28     dynamic
+1       bc:b1:81:ee:bc:7a      gi28     dynamic
+1       c4:34:6b:56:d3:51      gi28     dynamic
+1       c4:34:6b:56:d3:57      gi28     dynamic
+1       c4:34:6b:5c:cc:1a      gi28     dynamic
+1       c4:34:6b:5e:14:0c      gi28     dynamic
+1       c8:d3:a3:08:10:92      gi28     dynamic
+1       cc:d5:39:51:fa:f5      gi28     dynamic
+1       cc:d5:39:52:4e:72      gi28     dynamic
+1       d4:85:64:05:1a:eb      gi28     dynamic
+1       d4:85:64:a9:d3:0a      gi28     dynamic
+1       d4:85:64:a9:d3:0c      gi28     dynamic
+1       d4:85:64:a9:d3:13      gi28     dynamic
+1       d4:85:64:a9:d5:e0      gi28     dynamic
+1       d4:85:64:a9:d9:e1      gi28     dynamic
+1       d4:85:64:bc:5e:40      gi28     dynamic
+1       d4:85:64:bc:c8:c5      gi28     dynamic
+1       d4:85:64:bc:c8:c6      gi28     dynamic
+1       d4:85:64:bc:c8:c8      gi3      dynamic
+1       d8:d3:85:7f:31:f2      gi28     dynamic
+1       d8:d3:85:81:08:e7      gi28     dynamic
+1       d8:d3:85:81:09:99      gi28     dynamic
+1       e8:39:35:36:ac:78      gi28     dynamic
+1       e8:39:35:4f:68:95      gi28     dynamic
+1       e8:39:35:54:43:d7      gi28     dynamic
+1       ec:cd:6d:3b:ad:31      gi28     dynamic
+1       ec:cd:6d:3b:af:17      gi28     dynamic
+1       f0:92:1c:e0:ba:80      gi28     dynamic
+1       f0:92:1c:e0:bd:20      gi28     dynamic
+1       f0:92:1c:e0:bd:88      gi28     dynamic
+1       f0:92:1c:e0:bd:ac      gi28     dynamic
+1       f0:92:1c:e0:bd:b2      gi28     dynamic
+1       f0:92:1c:e0:be:80      gi28     dynamic
+1       f0:92:1c:e0:be:82      gi28     dynamic
+1       f0:92:1c:e2:69:3e      gi7      dynamic
+1       f0:92:1c:e2:6c:67      gi28     dynamic
+1       f0:92:1c:e2:6c:83      gi28     dynamic
+1       f0:92:1c:e2:6c:c6      gi27     dynamic
+1       f0:92:1c:e2:6c:da      gi28     dynamic
+1       f0:92:1c:e2:6d:fd      gi28     dynamic
+1       f0:92:1c:e2:6e:08      gi28     dynamic
+1       f0:92:1c:e2:6e:0c      gi28     dynamic
+1       f0:92:1c:e2:6e:35      gi28     dynamic
+1       f0:92:1c:e2:6e:38      gi28     dynamic
+1       f0:92:1c:e7:d2:7c      gi28     dynamic
+1       f0:92:1c:e7:d3:d1      gi28     dynamic
+1       f0:92:1c:e7:d3:d9      gi28     dynamic
+1       f0:92:1c:e7:d4:03      gi28     dynamic
+1       f0:92:1c:e7:d4:1e      gi28     dynamic
+1       f0:92:1c:eb:81:e6      gi28     dynamic
+1       f0:92:1c:eb:82:0f      gi28     dynamic
+1       f0:92:1c:eb:82:e1      gi28     dynamic
+1       f0:92:1c:eb:82:e3      gi28     dynamic
+1       f0:92:1c:eb:82:ff      gi28     dynamic
+1       f0:92:1c:eb:83:19      gi28     dynamic
+1       f0:92:1c:eb:83:1e      gi28     dynamic
+1       f0:92:1c:eb:83:6b      gi28     dynamic
+1       f0:92:1c:eb:83:6d      gi28     dynamic
+1       f0:92:1c:eb:89:85      gi28     dynamic
+1       f0:92:1c:eb:89:8b      gi28     dynamic
+1       f0:92:1c:f3:8e:7f      gi28     dynamic
+100      00:0f:e2:14:69:df      gi28     dynamic
+100      00:0f:e2:14:6a:07      gi28     dynamic
+100      00:1e:c1:d7:1e:c1      gi28     dynamic
+100      00:1e:c1:d7:70:c1      gi28     dynamic
+100      00:24:73:42:60:41      gi28     dynamic
+100      00:24:73:8b:5e:81      gi28     dynamic
+100      00:e1:6d:8f:1b:55      gi28     dynamic
+100      00:e1:6d:8f:1d:39      gi28     dynamic
+100      00:e1:6d:8f:1e:41      gi28     dynamic
+100      04:da:d2:0c:d2:6e      gi28     dynamic
+100      04:da:d2:0c:d6:0e      gi28     dynamic
+100      04:da:d2:0c:d8:18      gi28     dynamic
+100      04:da:d2:0e:df:e6      gi28     dynamic
+100      20:bb:c0:7d:fb:96      gi28     dynamic
+100      20:bb:c0:c1:0e:02      gi28     dynamic
+100      20:bb:c0:c1:1f:cb      gi27     dynamic
+100      20:bb:c0:c1:20:3f      gi28     dynamic
+100      20:bb:c0:c1:20:d0      gi28     dynamic
+100      20:bb:c0:c1:21:61      gi28     dynamic
+100      20:bb:c0:c1:23:df      gi28     dynamic
+100      20:bb:c0:c1:dd:a7      gi28     dynamic
+100      2c:36:f8:48:c7:8b      gi28     dynamic
+100      2c:36:f8:48:c8:57      gi28     dynamic
+100      40:01:c6:71:24:41      gi28     dynamic
+100      40:01:c6:71:6c:41      gi28     dynamic
+100      a0:cf:5b:e5:7b:3c      gi28     dynamic
+100      b0:00:b4:0f:48:55      gi28     dynamic
+100      b0:00:b4:0f:48:e6      gi28     dynamic
+100      b4:e9:b0:69:f2:5b      gi28     dynamic
+100      cc:d5:39:51:fa:d9      gi28     dynamic
+100      cc:d5:39:52:4d:51      gi28     dynamic
+100      cc:d5:39:52:4e:56      gi28     dynamic
+
+DG-Beru-1em-R1-Fo...#show arp
+
+Total number of entries: 7
+
+
+VLAN    Interface     IP address        HW address          status
+--------------------- --------------- ------------------- ---------------
+vlan 100              10.22.100.1     00:0f:e2:14:6a:07   dynamic
+vlan 100              10.22.100.2     00:0f:e2:14:69:df   dynamic
+vlan 100              10.22.100.14    40:01:c6:71:6c:41   dynamic
+vlan 100              10.22.100.44    00:1e:c1:d7:70:c1   dynamic
+vlan 100              10.22.100.48    00:1e:c1:d7:1e:c1   dynamic
+vlan 100              10.22.100.50    40:01:c6:71:24:41   dynamic
+vlan 100              10.22.100.65    00:24:73:8b:5e:81   dynamic
+
+
+DG-Beru-1em-R1-Fo...#

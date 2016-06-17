@@ -1,0 +1,44 @@
+--- cmdShow log 2014.12.19 13:44:07 ---
+show running
+no spanning-tree
+interface ethernet g5
+description MIMO_WIFI
+exit
+interface ethernet g24
+switchport mode trunk
+exit
+vlan database
+vlan 4,100
+exit
+interface ethernet g5
+switchport access vlan 4
+exit
+interface ethernet g24
+switchport trunk allowed vlan add 4
+exit
+interface ethernet g24
+switchport trunk allowed vlan add 100
+exit
+interface vlan 4
+name Wireless
+exit
+interface range ethernet g(1-20)
+negotiation 100f
+exit
+interface vlan 100
+ip address 10.22.100.36 255.255.254.0
+exit
+ip default-gateway 10.22.100.1
+hostname DG_Szteroid2uz_1em_Fogado
+username admin password f9064955bc8a2b11bf2421b6504fea51 level 15 encrypted
+snmp-server location DG_Szteroid2uz_1em
+snmp-server contact R150992
+snmp-server community gedeon3 ro view Default
+clock timezone +1
+clock summer-time recurring eu zone utc
+clock source sntp
+sntp client poll timer 60
+sntp unicast client enable
+sntp unicast client poll
+sntp server 10.101.2.5 poll
+DG_Szteroid2uz_1em_Fogado#

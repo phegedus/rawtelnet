@@ -1,0 +1,35 @@
+--- cmdShow log 2014.12.19 13:45:12 ---
+show running
+no spanning-tree
+interface ethernet g24
+switchport mode trunk
+exit
+vlan database
+vlan 100
+exit
+interface ethernet g24
+switchport trunk allowed vlan add 100
+exit
+interface range ethernet g(1-11,13-23)
+negotiation 100f
+exit
+interface vlan 100
+ip address 10.22.100.38 255.255.254.0
+exit
+ip default-gateway 10.22.100.1
+hostname DG_Villamosautomatika_Fsz_R1_2sw
+aaa authentication enable default local
+username admin password f9064955bc8a2b11bf2421b6504fea51 level 15 encrypted
+snmp-server location DG_Villamosautomatika_Fsz_R1
+snmp-server contact R150988
+snmp-server community gedeon3 ro view Default
+snmp-server community gedeon3 ro 10.101.0.175 view Default
+snmp-server community public ro view Default
+clock timezone +1
+clock summer-time recurring eu zone utc
+clock source sntp
+sntp client poll timer 60
+sntp unicast client enable
+sntp unicast client poll
+sntp server 10.101.2.5 poll
+DG_Villamosautomatika_Fsz_R1_2sw#

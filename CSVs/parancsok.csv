@@ -1,0 +1,51 @@
+vendor: cisco
+terminal length 0
+show conf
+show inventory
+show version
+show interfaces
+show cdp neighbor detail
+show lldp neighbor
+show mac-address-table
+show arp
+vendor: juniper
+set cli screen-length 0
+show conf
+show chassis hardware
+show interface
+show lldp neighbor
+show ethernet-switching table
+show arp
+vendor: 3com
+display current
+display version
+display lldp neighbor
+display mac-address
+display arp
+vendor: ciscosg
+terminal datadump
+show running
+show system
+show version
+show cdp neighbor detail
+show lldp neighbor
+show mac address-table
+show arp
+vendor: 3comsuperstack
+system
+summary
+quit
+bridge
+addressDatabase
+summary
+all
+quit
+quit
+logout
+vendor: allied
+6
+1
+R
+R
+Q
+

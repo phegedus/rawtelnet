@@ -1,0 +1,76 @@
+--- cmdShow log 2014.12.08 09:20:24 ---
+DG-Szint1-1em-R2-...#
+show running
+config-file-header
+DG-Szint1-1em-R2-Fogado-2sw
+v1.2.7.76 / R750_NIK_1_2_584_002
+CLI v1.0
+file SSD indicator encrypted
+@
+ssd-control-start
+ssd config
+ssd file passphrase control unrestricted
+no ssd file integrity control
+ssd-control-end cb0a3fdb1f3a1af4e4430033719968c0
+!
+no cdp log mismatch duplex
+no spanning-tree
+vlan database
+vlan 22,100
+exit
+voice vlan oui-table add 0001e3 Siemens_AG_phone________
+voice vlan oui-table add 00036b Cisco_phone_____________
+voice vlan oui-table add 00096e Avaya___________________
+voice vlan oui-table add 000fe2 H3C_Aolynk______________
+voice vlan oui-table add 0060b9 Philips_and_NEC_AG_phone
+voice vlan oui-table add 00d01e Pingtel_phone___________
+voice vlan oui-table add 00e075 Polycom/Veritel_phone___
+voice vlan oui-table add 00e0bb 3Com_phone______________
+hostname DG-Szint1-1em-R2-Fogado-2sw
+enable password level 15 encrypted bab4a0d3a967180a7b630202cd53dee66ddc0af7
+passwords complexity min-length 6
+passwords complexity min-classes 2
+no passwords complexity not-current
+passwords aging 0
+username admin password encrypted ea3b9f2623ddc1e05c67327b2f126edee4e57996 privilege 15
+snmp-server server
+snmp-server location DG-Szint1-1em-R2
+snmp-server contact R151172
+snmp-server community gedeon3 ro view Default
+snmp-server community gedeon3 ro 10.101.0.175 view Default
+clock timezone HU +1
+clock summer-time HU recurring eu
+clock source sntp
+sntp unicast client enable
+sntp unicast client poll
+sntp server 10.101.2.5 poll
+ip telnet server
+!
+interface vlan 22
+name User_printer
+!
+interface vlan 100
+name Management
+ip address 10.22.100.24 255.255.255.0
+no ip address dhcp
+!
+
+interface gigabitethernet25
+switchport trunk allowed vlan add 22,100
+no macro auto smartport
+!
+interface gigabitethernet26
+switchport trunk allowed vlan add 22,100
+no macro auto smartport
+!
+interface gigabitethernet27
+switchport trunk allowed vlan add 22,100
+no macro auto smartport
+!
+interface gigabitethernet28
+switchport trunk allowed vlan add 22,100
+no macro auto smartport
+!
+ip default-gateway 10.22.100.1
+ip default-gateway 10.22.100.2
+

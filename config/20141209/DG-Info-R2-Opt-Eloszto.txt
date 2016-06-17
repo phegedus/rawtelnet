@@ -1,0 +1,120 @@
+--- cmdShow log 2014.12.09 16:31:43 ---
+DG-Info-R2-Opt-El...#show running
+config-file-header
+DG-Info-R2-Opt-Eloszto
+v1.3.7.18 / R750_NIK_1_35_647_358
+CLI v1.0
+set system mode switch
+
+file SSD indicator encrypted
+@
+ssd-control-start
+ssd config
+ssd file passphrase control unrestricted
+no ssd file integrity control
+ssd-control-end cb0a3fdb1f3a1af4e4430033719968c0
+!
+no cdp log mismatch duplex
+no cdp log mismatch voip
+vlan database
+vlan 4,16,32,36-37,100,249-250
+exit
+voice vlan oui-table add 0001e3 Siemens_AG_phone________
+voice vlan oui-table add 00036b Cisco_phone_____________
+voice vlan oui-table add 00096e Avaya___________________
+voice vlan oui-table add 000fe2 H3C_Aolynk______________
+voice vlan oui-table add 0060b9 Philips_and_NEC_AG_phone
+voice vlan oui-table add 00d01e Pingtel_phone___________
+voice vlan oui-table add 00e075 Polycom/Veritel_phone___
+voice vlan oui-table add 00e0bb 3Com_phone______________
+hostname DG-Info-R2-Opt-Eloszto
+logging buffered debugging
+passwords aging 0
+username richter password encrypted bab4a0d3a967180a7b630202cd53dee66ddc0af7 privilege 15
+snmp-server server
+snmp-server location DG-Info-R2
+snmp-server contact R151255
+snmp-server community gedeon3 ro view Default
+snmp-server community gedeon3 ro 10.101.0.175 view Default
+clock timezone HU +1
+clock summer-time HU recurring eu
+clock source sntp
+sntp unicast client enable
+sntp unicast client poll
+sntp server 10.101.2.5 poll
+ip telnet server
+!
+
+interface vlan 4
+name Wireless
+!
+interface vlan 16
+name User_printer
+!
+interface vlan 32
+name Fix_ip_nem_pc
+!
+interface vlan 36
+name Voice
+!
+interface vlan 37
+name Asterix_VoIP
+!
+interface vlan 100
+name Management
+ip address 10.22.100.41 255.255.254.0
+!
+interface vlan 249
+name Kromatograf
+!
+interface vlan 250
+name Epuletfelugyelet
+!
+interface gigabitethernet1
+description ###_To_Muszaki_&_Rezsianyagraktar_###
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet2
+description ###_To_Tanuzem_###
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet3
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet4
+description ###_To_Porta_1_###
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet5
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet6
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet7
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet8
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet9
+description ****TO_info_SW****
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+interface gigabitethernet10
+description ###_From_Core1_###
+switchport trunk allowed vlan add 4,16,32,36-37,100,249-250
+no macro auto smartport
+!
+exit
+ip default-gateway 10.22.100.1
+
